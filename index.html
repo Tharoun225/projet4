@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
+
+<button id="scrollToTopBtn" title="Retour en haut">⬆️</button>
+
 <body>
 
   <header>
@@ -131,7 +134,7 @@
 </section>
 
 <section class="telechargement apparition">
-  <a href="cv-haroun.pdf" class="btn-telecharger" download>Télécharger mon CV</a>
+  <a href="./images/Modern Minimalist CV Resume (1).pdf" class="btn-telecharger" download>Télécharger mon CV</a>
 </section>
 
 <section class="contact" id="contact">
@@ -143,6 +146,7 @@
     <input type="email" name="email" placeholder="Votre email" required>
     <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
     <button type="submit">Envoyer</button>
+    <div class="confirmation-message"></div> <!-- ✅ Zone pour le message -->
   </form>
 </section>
 
@@ -161,5 +165,6 @@
   </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
